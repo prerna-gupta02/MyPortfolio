@@ -24,7 +24,7 @@ function BlogPage() {
 
     const useStyles = makeStyles((t) => ({
         search : {
-            color: theme.tertiary, 
+            color: theme.secondary, 
             width: '40%',
             height: '2.75rem',
             outline: 'none',
@@ -34,17 +34,17 @@ function BlogPage() {
             fontFamily: "'Noto Sans TC', sans-serif",
             fontWeight: 500,
             fontSize: '0.9rem',  
-            backgroundColor: theme.secondary, 
+            backgroundColor: theme.tertiary, 
             boxShadow: theme.type === 'dark' ? 'inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060' : 'inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030',
             "&::placeholder": {
-                color: theme.tertiary80, 
+                color: theme.secondary, 
             },
             [t.breakpoints.down('sm')]: {
                 width:'350px',
             },
         },
         home: {
-            color: theme.secondary,
+            color: theme.tertiary,
             position: 'absolute',
             top: 25,
             left: 25,
@@ -69,19 +69,19 @@ function BlogPage() {
     const classes = useStyles();
 
     return (
-        <div className="blogPage" style={{backgroundColor: theme.secondary}}>
+        <div className="blogPage" style={{backgroundColor: theme.tertiary}}>
             <Helmet>
                 <title>{headerData.name} | Blog</title>
             </Helmet>
-            <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
+            <div className="blogPage--header" style={{backgroundColor: theme.darkbrowny1}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>
                 </Link>
-                <h1 style={{color: theme.secondary}}>Blogs</h1>
+                <h1 style={{color: theme.tertiary}}>Blogs</h1>
             </div>
             <div className="blogPage--container">
                 <div className="blog--search">
-                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search}/>
+                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search certficates..." className={classes.search}/>
                 </div>
                 <div className="blogs--container">
                     <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
