@@ -6,5 +6,5 @@ export const headerData = {
     title: "Full Stack Developer",
     desciption:"A coding Enthusiast with a keen interest in software and full stack development.",
     image: {myimg},
-    resumePdf: cv
+    resumePdf: {cv}
 }
