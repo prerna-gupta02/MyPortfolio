@@ -13,8 +13,8 @@ export const projectsData = [
         projectName: 'Buys Monefy',
         projectDesc: 'Handles the transactions between supplier and buyer through a secure medium via bank.',
         tags: ['React Js', 'Node Js', 'MySQL', 'Express Js'],
-        code: 'https://github.com/jyotirani123/BuyS_Monefy',
-        demo: '/',
+        code: '/',
+        demo: 'https://github.com/jyotirani123/BuyS_Monefy',
         image: one
     },
     {
@@ -31,8 +31,8 @@ export const projectsData = [
         projectName: 'My Portfolio',
         projectDesc: 'This is my portfolio made by React Js which is completely responsive.',
         tags: ['React Js', 'CSS', 'BootStrap', 'Firebase'],
-        code: '/',
-        demo: '/',
+        code: '/https://github.com/prerna-gupta02/myportfolio',
+        demo: 'https://prerna-gupta.web.app/',
         image: three
     },
     {
