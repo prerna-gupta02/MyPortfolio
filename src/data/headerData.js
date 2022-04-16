@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/CV.pdf'
+import cv from '../assets/pdf/CV.pdf'
 import myimg from '../assets/png/myimg3.jpg'
 
 export const headerData = {
@@ -6,5 +6,5 @@ export const headerData = {
     title: "Full Stack Developer",
     desciption:"A coding Enthusiast with a keen interest in software and full stack development.",
     image: {myimg},
-    resumePdf: resume
+    resumePdf: cv
 }
